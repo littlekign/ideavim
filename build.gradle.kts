@@ -11,10 +11,10 @@ buildscript {
     }
 
     dependencies {
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.30")
         classpath("com.github.AlexPl292:mark-down-to-slack:1.1.2")
-        classpath("org.eclipse.jgit:org.eclipse.jgit:5.12.0.202106070339-r")
-        classpath("org.kohsuke:github-api:1.129")
+        classpath("org.eclipse.jgit:org.eclipse.jgit:5.13.0.202109080827-r")
+        classpath("org.kohsuke:github-api:1.133")
         classpath("org.jetbrains:markdown:0.2.4")
     }
 }
@@ -28,7 +28,7 @@ plugins {
     id("org.jetbrains.changelog") version "1.2.0"
 
     // ktlint linter - read more: https://github.com/JLLeitschuh/ktlint-gradle
-    id("org.jlleitschuh.gradle.ktlint") version "10.0.0"
+    id("org.jlleitschuh.gradle.ktlint") version "10.2.0"
 }
 
 // Import variables from gradle.properties file
